@@ -1,0 +1,28 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'sr layout sr':
+  info: Assign pin label "vss" at (0.0500, 0.0000) to layer `metal1_conn'.
+  info: Assign pin label "s" at (0.2050, 0.8400) to layer `metal1_conn'.
+  info: Assign pin label "en" at (0.6100, 0.7300) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0400, 1.5000) to layer `metal1_conn'.
+  info: Assign pin label "r" at (1.0725, 0.8575) to layer `metal1_conn'.
+  info: Assign pin label "q" at (1.5550, 0.7325) to layer `metal1_conn'.
+  info: Assign pin label "qb" at (2.1625, 0.7400) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'sr layout sr':
+  info: Assign pin label "vss" at (0.0500, 0.0000) to layer `metal1_conn'.
+  info: Assign pin label "s" at (0.2050, 0.8400) to layer `metal1_conn'.
+  info: Assign pin label "en" at (0.6100, 0.7300) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0400, 1.5000) to layer `metal1_conn'.
+  info: Assign pin label "r" at (1.0725, 0.8575) to layer `metal1_conn'.
+  info: Assign pin label "q" at (1.5550, 0.7325) to layer `metal1_conn'.
+  info: Assign pin label "qb" at (2.1625, 0.7400) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

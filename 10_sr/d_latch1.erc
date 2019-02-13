@@ -1,0 +1,26 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'd_latch1 layout d_latch1':
+  info: Assign pin label "vss" at (0.0500, 0.0000) to layer `metal1_conn'.
+  info: Assign pin label "d" at (0.4250, 0.6975) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0400, 1.5000) to layer `metal1_conn'.
+  info: Assign pin label "en" at (1.0150, 0.7300) to layer `metal1_conn'.
+  info: Assign pin label "q" at (1.9600, 0.7325) to layer `metal1_conn'.
+  info: Assign pin label "qb" at (2.5675, 0.7400) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'd_latch1 layout d_latch1':
+  info: Assign pin label "vss" at (0.0500, 0.0000) to layer `metal1_conn'.
+  info: Assign pin label "d" at (0.4250, 0.6975) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0400, 1.5000) to layer `metal1_conn'.
+  info: Assign pin label "en" at (1.0150, 0.7300) to layer `metal1_conn'.
+  info: Assign pin label "q" at (1.9600, 0.7325) to layer `metal1_conn'.
+  info: Assign pin label "qb" at (2.5675, 0.7400) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
