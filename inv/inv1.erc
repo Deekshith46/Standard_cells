@@ -1,0 +1,33 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'inv1 layout inverter':
+  info: Assign pin label "vss" at (0.0525, 0.0025) to layer `metal1_conn'.
+  info: Assign pin label "a" at (0.2125, 0.8125) to layer `metal1_conn'.
+  info: Assign pin label "y" at (0.3500, 0.7275) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0475, 1.5000) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'inv1 layout inverter':
+  info: Assign pin label "vss" at (0.0525, 0.0025) to layer `metal1_conn'.
+  info: Assign pin label "a" at (0.2125, 0.8125) to layer `metal1_conn'.
+  info: Assign pin label "y" at (0.3500, 0.7275) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0475, 1.5000) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'inv1 layout inverter':
+  info: Assign pin label "vss" at (0.0525, 0.0025) to layer `metal1_conn'.
+  info: Assign pin label "a" at (0.2125, 0.8125) to layer `metal1_conn'.
+  info: Assign pin label "y" at (0.3500, 0.7275) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0475, 1.5000) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
