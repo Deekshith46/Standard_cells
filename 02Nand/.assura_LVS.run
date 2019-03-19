@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/tools/cadence/ASSURA41/tools.lnx86/assura/bin/assura /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/02Nand/nand1x1.rsf -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/02Nand/cds.lib -gui
+exit $?
