@@ -1,0 +1,248 @@
+
+            Assura (R) Physical Verification Version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12
+            Release 4.1_USR5_HF15
+
+Copyright (c) Cadence Design Systems. All rights reserved.
+@(#)$CDS: assura_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
+sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
+
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Thu Mar 21 04:16:50 2019
+
+
+Starting /tools/cadence/ASSURA41//tools.lnx86/assura/bin/aveng /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/or.rsf -exec1 -LVS -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib
+@(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
+sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
+
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Thu Mar 21 04:16:51 2019
+
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+ Summary Report: or.sum
+ RSF           : /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/or.rsf
+ Library Name  : or1
+ CDSLIB Path   : "/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib"
+ Cell Name     : or
+ View Name     : layout
+ Rules File    : /tools/cadence/FOUNDRY/analog/45nm/assura/./extract.rul
+ Options       : -exec1 -LVS -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib 
+ Work Directory: .
+ Operating Mode: Legacy Mode is Off
+
+
+Starting dfIIToVdb...
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+@(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 22:01 (sjfhw625) $
+sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
+
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Thu Mar 21 04:16:52 2019
+
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+*WARNING* LIB avTech from File /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib Line 14 redefines
+LIB avTech from the same file (defined earlier.)
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/inverter' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'inverter'.
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/&ANALOG/180nm/libs.oa22/gpdk180' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'gpdk180'.
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/&ANALOG/90nm/libs.oa22/gpdk090' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'gpdk090'.
+*WARNING* The directory: '/tools/cadence/ASSURA41/tools.lnx86/dfII/etc/cdslib/artist/analogLib' does not exist
+	but was defined in libFile '/tools/cadence/FOUNDRY/analog/45nm/cds.lib' for Lib 'analogLib'.
+*WARNING* LIB avTech from File /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib Line 14 redefines
+LIB avTech from the same file (defined earlier.)
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/inverter' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'inverter'.
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/&ANALOG/180nm/libs.oa22/gpdk180' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'gpdk180'.
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/&ANALOG/90nm/libs.oa22/gpdk090' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'gpdk090'.
+*WARNING* The directory: '/tools/cadence/ASSURA41/tools.lnx86/dfII/etc/cdslib/artist/analogLib' does not exist
+	but was defined in libFile '/tools/cadence/FOUNDRY/analog/45nm/cds.lib' for Lib 'analogLib'.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 5.0 (22-Feb-2016)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+Compiling rules...
+
+WARNING LVS Run detected.
+Non-legacy mode has been disabled for this LVS run
+Checking out license for Assura_LVS
+*WARNING* Failed to obtain license for Assura_LVS
+No Assura license available.
+Checking out license for Phys_Ver_Sys_LVS_XL
+
+Reading the design data...
+
+
+
+Finished dfIIToVdb.
+
+Building the VDB part 2 in background mode.
+
+Building tables for LVS Preprocessing in background mode.
+
+
+Starting /tools/cadence/ASSURA41/tools.lnx86/assura/bin/vdbToCells . or
+
+Finished /tools/cadence/ASSURA41/tools.lnx86/assura/bin/vdbToCells
+
+Starting Nvn PreExtraction...
+
+Starting /tools/cadence/ASSURA41/tools.lnx86/assura/bin/nvn /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/or.rsf -preExtract -exec1 -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib
+Checking out license for Assura_LVS
+Checking out license for Phys_Ver_Sys_LVS_XL
+@(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 22:02 (sjfhw625) $
+sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
+run on compute-srv2.eda.atme.in at Thu Mar 21 04:16:54 2019
+
+*************************************************************** 
+
+  GENERIC PDK Assura Compare Rules file 
+  Cadence Design Systems shall not be liable for the accuracy 
+  of this LVS rule file or its ability to capture errors. 
+  The user is responsible for thoroughly testing and 
+  implementing its features. 
+
+*************************************************************** 
+
+Reading schematic network
+ running dfIIToVldb -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/or.vlr /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/or.rsf
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+@(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:58 (sjfhw625) $
+sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
+
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Thu Mar 21 04:16:55 2019
+
+
+*************************************************************** 
+
+  GENERIC PDK Assura Compare Rules file 
+  Cadence Design Systems shall not be liable for the accuracy 
+  of this LVS rule file or its ability to capture errors. 
+  The user is responsible for thoroughly testing and 
+  implementing its features. 
+
+*************************************************************** 
+
+
+Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
+Top Cell Library: "or1"
+Top Cell Name: "or"
+Top Cell View: "schematic"
+Output Data Base Name: "/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/or.sdb"
+Simulator Name: "auLvs"
+Failed to obtain license for "Assura_LVS". 
+ERROR (LMF-02005): License call failed for feature Assura_LVS, version 4.100 and quantity 1. The license server search path is defined as 5280@cadence:5280@cadence. The FLEXnet error message is as follows,
+    FLEXnet ERROR(-5, 0, 0): No such feature exists.
+
+Run 'lic_error LMF-02005' for more information.
+Checking out license for Phys_Ver_Sys_LVS_XL
+*WARNING* LIB avTech from File /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib Line 14 redefines
+LIB avTech from the same file (defined earlier.)
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/inverter' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'inverter'.
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/&ANALOG/180nm/libs.oa22/gpdk180' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'gpdk180'.
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/&ANALOG/90nm/libs.oa22/gpdk090' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'gpdk090'.
+View List: "auLvs schematic symbol"
+Stop List: "auLvs"
+*WARNING* The directory: '/tools/cadence/ASSURA41/tools.lnx86/dfII/etc/cdslib/artist/analogLib' does not exist
+	but was defined in libFile '/tools/cadence/FOUNDRY/analog/45nm/cds.lib' for Lib 'analogLib'.
+*WARNING* LIB avTech from File /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib Line 14 redefines
+LIB avTech from the same file (defined earlier.)
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/inverter' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'inverter'.
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/&ANALOG/180nm/libs.oa22/gpdk180' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'gpdk180'.
+*WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/&ANALOG/90nm/libs.oa22/gpdk090' does not exist
+	but was defined in libFile '/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/05or/cds.lib' for Lib 'gpdk090'.
+*WARNING* The directory: '/tools/cadence/ASSURA41/tools.lnx86/dfII/etc/cdslib/artist/analogLib' does not exist
+	but was defined in libFile '/tools/cadence/FOUNDRY/analog/45nm/cds.lib' for Lib 'analogLib'.
+Loading gpdk045/libInit.il ...
+	Loading gpdk045/loadCxt.ile ... done!
+	Loading context 'gpdk045' from library 'gpdk045' ... done!
+	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+	Loading gpdk045/gpdk045_customFilter.il ... done!
+	Loading gpdk045/libInitCustomExit.il ... 
+	Loading Environment Settings ...
+	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+
+  *************************************************************           
+  *              Cadence Design Systems, Inc.                 *           
+  *                                                           *           
+  *                    Generic 45nm PDK                       *           
+  *                        (gpdk045)                          *           
+  *                                                           *           
+  *************************************************************           
+	
+
+	VERSION: 5.0 (22-Feb-2016)
+
+done!
+Loaded gpdk045/libInit.il successfully!
+Net Listing Mode is Analog
+*Error* schematic cell: or1 or schematic
+The schematic was never extracted or is not current in the schematics editor.
+Use the `Check and Save' operation in the schematics editor to correct this.
+The lastSchematicExtraction property is missing.
+1 error(s) encountered, vldb not generated
+Error - dfIIToVldb failed to execute
+
+Finished /tools/cadence/ASSURA41/tools.lnx86/assura/bin/nvn
+
+*WARNING* /tools/cadence/ASSURA41/tools.lnx86/assura/bin/nvn exit with bad status
+*WARNING* Status 256
+*WARNING* Assura execution terminated
+
+*WARNING* An error occurred during Nvn PreExtraction.
+LVS preprocessing requires a successful run of Nvn.
+Assura will now terminate.
+
+*WARNING* Bad exit from child process .. 0x100
+
+
+*****  aveng terminated abnormally  *****
+
+
+*WARNING* aveng exit with bad status
+
+
+*****  aveng fork terminated abnormally  *****
+
+*WARNING* Status 256
+*WARNING* Assura execution terminated
