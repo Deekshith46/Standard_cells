@@ -1,0 +1,1 @@
+("xnor:/\txnor xnor layout" (("open" (nil hierarchy "/{xnor xnor layout }:a"))) (((-0.1715 -0.437) (3.2565 1.942)) "a" "Layout" 2))("xnor:/\txnor xnor schematic" (("open" (nil hierarchy "/{xnor xnor schematic }:a"))) (((-1.84375 -2.375) (9.28125 2.625)) "a" "Schematics" 4))

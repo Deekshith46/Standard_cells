@@ -1,0 +1,36 @@
+C g45n1svt(MOS) g45n1svt(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C g45p1svt(MOS) g45p1svt(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "xnor schematic xnor" "xnor layout xnor"
+N net141 avC10
+N net134 avC9
+N net136 avC8
+N b b
+N a a
+N vss vss
+N vdd vdd
+N y y
+I PM6 avD10_7
+I PM0 avD10_5
+I PM1 avD10_2
+I PM2 avD10_4
+I PM3 avD10_3
+I PM4 avD10_6
+I PM5 avD10_1
+I NM6 avD2_7
+I NM0 avD2_5
+I NM1 avD2_2
+I NM2 avD2_4
+I NM3 avD2_3
+I NM4 avD2_6
+I NM5 avD2_1
+

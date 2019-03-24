@@ -6,14 +6,14 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Fri Mar 22 02:03:34 2019
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Fri Mar 22 02:10:33 2019
 
 
 Starting /tools/cadence/ASSURA41//tools.lnx86/assura/bin/aveng /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/xor1x.rsf -exec1 -LVS -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Fri Mar 22 02:03:35 2019
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Fri Mar 22 02:10:33 2019
 
 
 Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
@@ -42,7 +42,7 @@ Virtuoso Framework License (111) was checked out successfully. Total checkout ti
 @(#)$CDS: dfIIToVdb_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 22:01 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Fri Mar 22 02:03:36 2019
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVdb on Fri Mar 22 02:10:34 2019
 
 
 Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
@@ -127,7 +127,7 @@ Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 22:02 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
-run on compute-srv2.eda.atme.in at Fri Mar 22 02:03:38 2019
+run on compute-srv2.eda.atme.in at Fri Mar 22 02:10:36 2019
 
 *************************************************************** 
 
@@ -141,11 +141,11 @@ run on compute-srv2.eda.atme.in at Fri Mar 22 02:03:38 2019
 
 Reading schematic network
  running dfIIToVldb -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/cds.lib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/xor1x.vlr /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/xor1x.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
 @(#)$CDS: dfIIToVldb_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:58 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Fri Mar 22 02:03:38 2019
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/dfIIToVldb on Fri Mar 22 02:10:37 2019
 
 
 *************************************************************** 
@@ -165,12 +165,12 @@ Top Cell Name: "xor1x"
 Top Cell View: "schematic"
 Output Data Base Name: "/home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/xor1x.sdb"
 Simulator Name: "auLvs"
+Failed to obtain license for "Assura_LVS". 
+Checking out license for Phys_Ver_Sys_LVS_XL
 ERROR (LMF-02005): License call failed for feature Assura_LVS, version 4.100 and quantity 1. The license server search path is defined as 5280@cadence:5280@cadence. The FLEXnet error message is as follows,
     FLEXnet ERROR(-5, 0, 0): No such feature exists.
 
 Run 'lic_error LMF-02005' for more information.
-Failed to obtain license for "Assura_LVS". 
-Checking out license for Phys_Ver_Sys_LVS_XL
 *WARNING* LIB avTech from File /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/cds.lib Line 14 redefines
 LIB avTech from the same file (defined earlier.)
 *WARNING* The directory: '/home/vv2trainee2/Desktop/Deekshith/standard_cells/inverter' does not exist
@@ -237,7 +237,7 @@ Executing: bulk = cellBoundary(root)
 Building the VDB part 3 in background mode.
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.10  elap: 4  pf: 0  in: 0  out: 96  virt: 101M  phys: 517M
+cpu: 0.09  elap: 4  pf: 0  in: 0  out: 96  virt: 101M  phys: 517M
 
 Running the Task Processor, 1 cells, 2906 steps...
 
@@ -1792,7 +1792,7 @@ Executing: (saveInterconnect (npn_emit "Nimp"))
 Executing: (saveInterconnect (Nburied "Nburied"))
 
 Finished running rules. Task processor time in main process:
-cpu: 0.30  elap: 0  pf: 0  in: 0  out: 712  virt: 145M  phys: 665M
+cpu: 0.30  elap: 1  pf: 0  in: 0  out: 712  virt: 145M  phys: 665M
 
 No output post-processing: This is not a DRC run
 
@@ -1815,7 +1815,7 @@ Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleS
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Fri Mar 22 02:03:40 2019
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Fri Mar 22 02:10:38 2019
 
 
    Creating Error Database 'xor1x'...
@@ -1990,7 +1990,7 @@ Total  errors:                                               0            0
 
    Writing Report into ./xor1x.err ...
 
-avrpt cpu sec:    0.08  elapsed:     0  virtual:    93M
+avrpt cpu sec:    0.07  elapsed:     0  virtual:    93M
 
 Finished /tools/cadence/ASSURA41//tools.lnx86/assura/bin/avrpt
 
@@ -2018,10 +2018,10 @@ Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: avnx_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Fri Mar 22 02:03:41 2019
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/avnx on Fri Mar 22 02:10:40 2019
 
 avnx started...
-cpu: 0.10  elap: 0  pf: 0  in: 0  out: 24  virt: 515M  phys: 775M
+cpu: 0.10  elap: 0  pf: 0  in: 0  out: 24  virt: 515M  phys: 783M
 
 Run time =  0.00 seconds
 CPU time =  0.12 seconds
@@ -2029,7 +2029,7 @@ CPU time =  0.12 seconds
                   End of Summary Report
 
 ************************************************************************
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 12960  virt: 446M  phys: 775M
+cpu: 0.01  elap: 0  pf: 0  in: 0  out: 12960  virt: 446M  phys: 783M
 ***** avnx terminated normally ***** 
 
 
@@ -2040,7 +2040,7 @@ Checking out license for Assura_LVS
 Checking out license for Phys_Ver_Sys_LVS_XL
 @(#)$CDS: nvn_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 22:02 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
-run on compute-srv2.eda.atme.in at Fri Mar 22 02:03:42 2019
+run on compute-srv2.eda.atme.in at Fri Mar 22 02:10:40 2019
 
 *************************************************************** 
 
@@ -2075,7 +2075,7 @@ Starting /tools/cadence/ASSURA41//tools.lnx86/assura/bin/vldbToRpa xor1x.lnn xor
 Finished /tools/cadence/ASSURA41//tools.lnx86/assura/bin/vldbToRpa
 
 Starting /tools/cadence/ASSURA41//tools.lnx86/assura/bin/ercChk /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/xor1x.rsf
-Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.01s.
+Virtuoso Framework License (111) was checked out successfully. Total checkout time was 0.02s.
 
 Loading tech rule set file : /tools/cadence/FOUNDRY/analog/45nm/assura/techRuleSets
 
@@ -2146,7 +2146,7 @@ Assura LVS terminated normally.
 
 
 
-Run ended: Fri Mar 22 02:03:44 2019
+Run ended: Fri Mar 22 02:10:43 2019
 
 *****  Assura terminated normally  *****
 

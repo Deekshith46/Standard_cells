@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Fri Mar 22 02:03:35 2019
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Fri Mar 22 02:10:33 2019
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -312,8 +312,8 @@ Echoing run specific file...
 
                   Time Summary - Database
 
-reading DFII data. . . .      0 cpu      0 elap  427.7M virt       0 pf
-LVS preprocessing. . . .      1 cpu      3 elap  100.7M virt       0 pf
+reading DFII data. . . .      0 cpu      0 elap  427.6M virt       0 pf
+LVS preprocessing. . . .      1 cpu      2 elap  100.7M virt       0 pf
 duplicate inst removal .      0 cpu      0 elap  100.7M virt       0 pf
 cell boundary layer. . .      0 cpu      0 elap  100.7M virt       0 pf
 small cell flattening. .      0 cpu      0 elap  100.7M virt       0 pf
@@ -336,7 +336,7 @@ duplicate inst removal .      0 cpu      0 elap  103.1M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  103.1M virt       0 pf
 final VDB processing . .      0 cpu      0 elap  103.1M virt       0 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      1 cpu      3 elap  427.7M virt       0 pf
+TOTALS (secs). . . . . .      1 cpu      2 elap  427.6M virt       0 pf
 
 
 ************************************************************************
@@ -1408,11 +1408,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  427.7M virt       0 pf
 
  ;# 267
     L98377 = geomGetAngledEdge( IND2dummy keep == 0  mode0) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 0
 
  ;# 268
     dataReduction( L98377 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 0
 
  ;# 269
     T?284 = geomSize( L98377 0.01 edges ) 
@@ -1436,11 +1436,11 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  427.7M virt       0 pf
 
  ;# 274
     L83584 = geomOr( ind10 ind11 ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 0
 
  ;# 275
  ;  region( L83584 )
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 0
 
  ;# 276
     L87155 = geomHoles( L83584 innermost ) 
@@ -1456,7 +1456,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  427.7M virt       0 pf
 
  ;# 279
  ;  region( T?290 )
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 0
 
  ;# 280
     ind_hole = geomGetVertex( T?290 keep < 14 ) 
@@ -12175,8 +12175,8 @@ measureProximity2( T?2521 nwell_conn  5.000000 output( SCA_raw SCB_raw SCC_raw )
 Total cells checked = 1
 Total rules checked = 2906
 
-Run time =  4.00 seconds
-CPU time =  1.49 seconds
+Run time =  5.00 seconds
+CPU time =  1.48 seconds
 VM HWM   =   428 Mbytes
 Disk HWM =     3 Mbytes
 Disk end =     3 Mbytes
