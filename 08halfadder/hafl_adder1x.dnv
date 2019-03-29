@@ -1,0 +1,8 @@
+vuiLVSdebugRunInfo = list( nil
+   'layoutLibrary "half_adder"
+   'layoutCell "hafl_adder1x"
+   'layoutView "layout"
+   'schematicLibrary "half_adder"
+   'schematicCell "hafl_adder1x"
+   'schematicView "schematic"
+)

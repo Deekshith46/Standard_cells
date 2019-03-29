@@ -1,3 +1,3 @@
 #!/bin/sh -f
-/tools/cadence/ASSURA41/tools.lnx86/assura/bin/assura /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/xnor.rsf -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/cds.lib -restart -gui
+/tools/cadence/ASSURA41/tools.lnx86/assura/bin/assura /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/hafl_adder1x.rsf -cdslib /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/cds.lib -restart -gui
 exit $?

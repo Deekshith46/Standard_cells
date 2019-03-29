@@ -1,0 +1,26 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'hafl_adder1x layout half_adder':
+  info: Assign pin label "vss" at (0.0825, -0.0050) to layer `metal1_conn'.
+  info: Assign pin label "b" at (0.3650, 0.6875) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0575, 1.5000) to layer `metal1_conn'.
+  info: Assign pin label "sum" at (0.9750, 0.7425) to layer `metal1_conn'.
+  info: Assign pin label "a" at (1.4875, 0.6875) to layer `metal1_conn'.
+  info: Assign pin label "carry" at (2.8425, 0.7475) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'hafl_adder1x layout half_adder':
+  info: Assign pin label "vss" at (0.0825, -0.0050) to layer `metal1_conn'.
+  info: Assign pin label "b" at (0.3650, 0.6875) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0575, 1.5000) to layer `metal1_conn'.
+  info: Assign pin label "sum" at (0.9750, 0.7425) to layer `metal1_conn'.
+  info: Assign pin label "a" at (1.4875, 0.6875) to layer `metal1_conn'.
+  info: Assign pin label "carry" at (2.8425, 0.7475) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
