@@ -16,3 +16,4 @@ DEFINE avTech /tools/cadence/ASSURA41/tools.lnx86/assura/etc/avtech/avTech
 DEFINE xor /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/xor
 DEFINE xnor /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/xnor
 DEFINE half_adder /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/half_adder
+DEFINE half_sub /home/vv2trainee2/Desktop/Deekshith/standard_cells/Standard_cells/06xor/half_sub

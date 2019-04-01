@@ -5,7 +5,7 @@
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Fri Mar 29 12:12:48 2019
+run on compute-srv2.eda.atme.in from /tools/cadence/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Mon Apr  1 22:08:30 2019
 
 Echoing run specific file...
     ;----------------------------------------------------------------------------
@@ -312,19 +312,19 @@ Echoing run specific file...
 
                   Time Summary - Database
 
-reading DFII data. . . .      0 cpu      0 elap  427.7M virt       0 pf
-LVS preprocessing. . . .      1 cpu      3 elap  100.7M virt       0 pf
-duplicate inst removal .      0 cpu      0 elap  100.7M virt       0 pf
-cell boundary layer. . .      0 cpu      0 elap  100.7M virt       0 pf
-small cell flattening. .      0 cpu      0 elap  100.7M virt       0 pf
-recognize standard cells      0 cpu      0 elap  100.7M virt       0 pf
-small cell flattening. .      0 cpu      0 elap  100.7M virt       0 pf
-duplicate inst removal .      0 cpu      0 elap  100.7M virt       0 pf
-cluster overlapped insts      0 cpu      0 elap  100.7M virt       0 pf
-expand thin cells. . . .      0 cpu      0 elap  100.7M virt       0 pf
-pattern analysis . . . .      0 cpu      0 elap  100.7M virt       0 pf
-array analysis . . . . .      0 cpu      0 elap  100.7M virt       0 pf
-extended dup inst remove      0 cpu      0 elap  100.7M virt       0 pf
+reading DFII data. . . .      0 cpu      0 elap  427.6M virt     352 pf
+LVS preprocessing. . . .      1 cpu      2 elap  100.7M virt       5 pf
+duplicate inst removal .      0 cpu      0 elap  100.7M virt       8 pf
+cell boundary layer. . .      0 cpu      0 elap  100.7M virt      11 pf
+small cell flattening. .      0 cpu      0 elap  100.7M virt      11 pf
+recognize standard cells      0 cpu      0 elap  100.7M virt      12 pf
+small cell flattening. .      0 cpu      0 elap  100.7M virt      12 pf
+duplicate inst removal .      0 cpu      0 elap  100.7M virt      12 pf
+cluster overlapped insts      0 cpu      0 elap  100.7M virt      12 pf
+expand thin cells. . . .      0 cpu      0 elap  100.7M virt      12 pf
+pattern analysis . . . .      0 cpu      0 elap  100.7M virt      12 pf
+array analysis . . . . .      0 cpu      0 elap  100.7M virt      13 pf
+extended dup inst remove      0 cpu      0 elap  100.7M virt      13 pf
 cell repetition analysis      0 cpu      0 elap  100.7M virt       0 pf
 enclosing polygon proc .      0 cpu      0 elap  100.7M virt       0 pf
 overlapping array proc .      0 cpu      0 elap  103.1M virt       0 pf
@@ -334,9 +334,9 @@ building avGrids . . . .      0 cpu      0 elap  103.1M virt       0 pf
 group shapes processing.      0 cpu      0 elap  103.1M virt       0 pf
 duplicate inst removal .      0 cpu      0 elap  103.1M virt       0 pf
 duplicate cell removal .      0 cpu      0 elap  103.1M virt       0 pf
-final VDB processing . .      0 cpu      0 elap  103.1M virt       0 pf
+final VDB processing . .      0 cpu      0 elap  103.1M virt       1 pf
 -----------------------------------------------------------------------
-TOTALS (secs). . . . . .      1 cpu      3 elap  427.7M virt       0 pf
+TOTALS (secs). . . . . .      1 cpu      2 elap  427.6M virt     486 pf
 
 
 ************************************************************************
@@ -1352,7 +1352,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  427.7M virt       0 pf
 
  ;# 253
     pnp_emit = geomAnd( L98077 PNPdummy ) 
-    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 130M   task sum: 0
 
  ;# 254
     dataReduction( pnp_emit ) 
@@ -1612,7 +1612,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  427.7M virt       0 pf
 
  ;# 318
     _pdio_lvt = geomAnd( L58875 Nwell ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
 
  ;# 319
  ;  region( _pdio_lvt )
@@ -2016,7 +2016,7 @@ TOTALS (secs). . . . . .      1 cpu      3 elap  427.7M virt       0 pf
 
  ;# 419
     L70180 = geomAnd( L89552 Nzvt ) 
-    cpu: 0.0   elapsed: 0   virtual: 135M   task sum: 0
+    cpu: 0.0   elapsed: 0   virtual: 133M   task sum: 0
 
  ;# 420
     L21328 = geomAndNot( L70180 Nhvt ) 
@@ -12175,8 +12175,8 @@ measureProximity2( T?2521 nwell_conn  5.000000 output( SCA_raw SCB_raw SCC_raw )
 Total cells checked = 1
 Total rules checked = 2906
 
-Run time =  5.00 seconds
-CPU time =  1.47 seconds
+Run time =  6.00 seconds
+CPU time =  1.49 seconds
 VM HWM   =   428 Mbytes
 Disk HWM =     3 Mbytes
 Disk end =     3 Mbytes

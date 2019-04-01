@@ -1,0 +1,26 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'half_sub layout half_sub':
+  info: Assign pin label "vss" at (0.0825, -0.0050) to layer `metal1_conn'.
+  info: Assign pin label "b" at (0.3650, 0.6875) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0575, 1.5000) to layer `metal1_conn'.
+  info: Assign pin label "diff" at (0.9750, 0.7450) to layer `metal1_conn'.
+  info: Assign pin label "a" at (1.4875, 0.6875) to layer `metal1_conn'.
+  info: Assign pin label "baro" at (2.8375, 0.7225) to layer `metal1_conn'.
+
+***** End of Label Report *****
+
+
+***** Begin Label Report *****
+
+ Label in cell 'half_sub layout half_sub':
+  info: Assign pin label "vss" at (0.0825, -0.0050) to layer `metal1_conn'.
+  info: Assign pin label "b" at (0.3650, 0.6875) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (0.0575, 1.5000) to layer `metal1_conn'.
+  info: Assign pin label "diff" at (0.9750, 0.7450) to layer `metal1_conn'.
+  info: Assign pin label "a" at (1.4875, 0.6875) to layer `metal1_conn'.
+  info: Assign pin label "baro" at (2.8375, 0.7225) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

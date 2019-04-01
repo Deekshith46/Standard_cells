@@ -31,13 +31,13 @@ vuiLVSFormTable = '(
 	avView  nil
 	avCompareView  nil
 	additionalFunctionsButton  nil
-	schLibrary  "half_adder"
-	schCell  "hafl_adder1x"
+	schLibrary  "half_sub"
+	schCell  "half_sub"
 	schView  "schematic"
 	existingSchNetlist  nil
 	useVerilogTopCell  nil
-	layLibrary  "half_adder"
-	layCell  "hafl_adder1x"
+	layLibrary  "half_sub"
+	layCell  "half_sub"
 	layView  "layout"
 	layUseExistingNL  nil
 	extractButton  nil

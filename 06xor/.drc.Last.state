@@ -29,8 +29,8 @@ vuiDRCFormTable = '(
 	avView  nil
 	additionalFunctionsButton  nil
 	limitDRCswitcher  nil
-	library  "half_adder"
-	cell  "hafl_adder1x"
+	library  "half_sub"
+	cell  "half_sub"
 	view  "layout"
 	saveExtracted  nil
 	extractedView  "drc_extracted"

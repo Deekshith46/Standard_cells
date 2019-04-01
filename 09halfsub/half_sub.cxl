@@ -1,0 +1,41 @@
+C g45n1svt(MOS) g45n1svt(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C g45p1svt(MOS) g45p1svt(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "half_sub schematic half_sub" "half_sub layout half_sub"
+N net209 avC9
+N net193 avC10
+N net195 avC11
+N a a
+N b b
+N vdd vdd
+N vss vss
+N diff diff
+N baro baro
+I PM5 avD10_1
+I PM4 avD10_6
+I PM3 avD10_3
+I PM2 avD10_4
+I PM1 avD10_2
+I PM0 avD10_5
+I PM6 avD10_7
+I PM7 avD10_8
+I PM8 avD10_9
+I NM5 avD2_1
+I NM4 avD2_6
+I NM3 avD2_3
+I NM2 avD2_4
+I NM1 avD2_2
+I NM0 avD2_5
+I NM6 avD2_7
+I NM7 avD2_8
+I NM8 avD2_9
+
